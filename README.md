@@ -1,4 +1,4 @@
-# LLM Benchamrk Dataset
+# LLM Benchmark Dataset
 
 This project extracts text from PDF files, splits it into chunks, and uses the Mistral-7B LLM to generate multiple-choice questions with answers.
 
