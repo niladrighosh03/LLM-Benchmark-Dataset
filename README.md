@@ -2,6 +2,14 @@
 
 This project extracts text from PDF files, splits it into chunks, and uses the Mistral-7B LLM to generate multiple-choice questions with answers.
 
+## Files
+
+- `mcq_generator.ipynb` - Main notebook to run
+- `mcq_dataset.csv` - Generated MCQ output
+- `pdf_chunks.json` - Processed PDF chunks
+- `LLM_cs124_week7_2025.pdf` - Example input PDF
+
+
 ## Features
 
 - 📄 **PDF Processing**: Extracts and chunks PDF content (3 pages per chunk with 1-page overlap)
@@ -32,10 +40,3 @@ The CSV file contains:
 - Question text
 - 4 answer options (A, B, C, D)
 - Correct answer (formatted as "D) Option text")
-
-## Files
-
-- `mcq_generator.ipynb` - Main notebook to run
-- `mcq_dataset.csv` - Generated MCQ output
-- `pdf_chunks.json` - Processed PDF chunks
-- `LLM_cs124_week7_2025.pdf` - Example input PDF
