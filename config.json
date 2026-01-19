@@ -1,0 +1,30 @@
+{
+  "paths": {
+    "pdf_input": "notes/LLM_cs124_week7_2025.pdf",
+    "chunks_metadata": "results/without_image/metdata/mistral_pdf_chunks.json",
+    "csv_output": "mcq_dataset.csv"
+  },
+  "model": {
+    "name": "mistralai/Mistral-7B-Instruct-v0.2",
+    "torch_dtype": "float16",
+    "device_map": "auto",
+    "max_new_tokens": 1024,
+    "do_sample": false
+  },
+  "chunking": {
+    "chunk_size": 3,
+    "overlap": 1
+  },
+  "csv_columns": [
+    "pdf_name",
+    "chunk_number",
+    "total_chunks",
+    "pages",
+    "question",
+    "option_A",
+    "option_B",
+    "option_C",
+    "option_D",
+    "correct_answer"
+  ]
+}
