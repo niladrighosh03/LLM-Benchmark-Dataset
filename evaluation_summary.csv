@@ -1,0 +1,6 @@
+Filename,Num_Questions,Coverage_Score,Diversity_Score,Topic_Depth (Fraction),Topic_Covered_Count,Correctness_Score,Quality_Score
+mistral_mcq_dataset.csv,211,63.0,76.88,96.49,110,Requires LLM,Requires LLM
+falcon_mcq_dataset.csv,10,8.28,41.91,0.0,0,Requires LLM,Requires LLM
+phi_mcq_dataset.csv,199,55.29,86.84,94.74,108,Requires LLM,Requires LLM
+qween_mcq_dataset.csv,176,52.18,85.59,85.09,97,Requires LLM,Requires LLM
+llama_mcq_dataset.csv,262,58.73,87.84,96.49,110,Requires LLM,Requires LLM
